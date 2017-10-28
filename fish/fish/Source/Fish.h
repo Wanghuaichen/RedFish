@@ -1,0 +1,22 @@
+#ifndef FISHH
+#define FISHH
+#include "stm32f10x.h"
+#include <stdlib.h>
+#include <math.h>
+#include <string.h>
+#include "Timer.h"
+#include "CPGCore.h"
+#include "NVIC.h"
+#include "UART.h"
+#include "Delay.h"
+#include "Spi.h"
+#include "Nrf.h"
+#include "IIC.h"
+#include "MPU.h"
+#include "HMC.h"
+#include "DHT11.h"
+#include "GPIO.h"
+#include "FishID.h"
+#include "OnChip.h"
+#include "ADC.h"
+#endif
