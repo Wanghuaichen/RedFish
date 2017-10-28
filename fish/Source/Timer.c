@@ -105,7 +105,7 @@ void Timer2Initialize(void)
 	TIM_ITConfig(TIM2,TIM_IT_Update,ENABLE);
 	//¿ªÆô¶¨Ê±Æ÷
 	TIM_Cmd(TIM2, ENABLE);
-	
+	//github test
 }
 void Timer3Initialize(u16 us)
 {
