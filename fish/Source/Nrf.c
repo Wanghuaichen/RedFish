@@ -167,8 +167,10 @@ void PacketWrite(u8 *PacketData,u8 Length)
 		CPGMode=0;
 		if(ReadyGetData==0)
 		{
-			Speed  = *(PacketData+1);
-			Direct = (*(PacketData+2))&0x0F;
+			Speed  = *(PacketData+1); 			//!!!!!! S p e e d
+			if(Speed!=0)
+				Speed=15;			
+			Direct = (*(PacketData+2))&0x0F;      //!!!!!! D i r e c t
 			if(((*(PacketData+2))>>4)==1)
 			{
 				Mode=1;

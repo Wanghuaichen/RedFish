@@ -102,7 +102,7 @@ void TIM2_IRQHandler(void)
 				CalculateSitaLevel(1,10,10,Speed,Direct);
 				if(Speed==0&&Direct==7)
 				{
-					Sita[0]=0;
+					Sita[0]=0; //
 					Sita[1]=0;
 					Sita[2]=0;
 				}
